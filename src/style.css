@@ -1,0 +1,88 @@
+@import "tailwindcss";
+@plugin "daisyui";
+
+.navbar{
+  background-color: #122ac9;
+}
+.profil{
+  color: white;
+  background-color: none;
+  padding: 10px;
+  margin-left: 30px;
+  border-radius: 5px;
+  transition: background-color 0.5s cubic-bezier(0.53, 0.53, 0.27, 1.00), box-shadow 0.5s cubic-bezier(0.53, 0.53, 0.27, 1.00);
+}
+.profil:hover{
+  background-color: #5348d381;
+  box-shadow: -3px 4px 10px #000000;
+}
+
+.menu{
+  background-color: #122ac9;
+  border-radius: 0px 0px 10px 10px;
+}
+.Drop{
+  background-color: #122ac9;
+  border: none;
+  box-shadow: none;
+}
+.Drop:hover, .Drop:focus{
+  background-color: #5348d381;
+  box-shadow: -3px 4px 10px #1f2087;
+}
+
+/*********************Hero*******************************/
+.Hero{
+  height: 30%;
+}
+
+.HeroBackground{
+  background-image: 
+    radial-gradient(4px 100px at 0px 119px, #b8a8ed, #0000),
+    radial-gradient(4px 100px at 300px 119px, #b8a8ed, #0000),
+    radial-gradient(1.5px 1.5px at 150px 59.5px, #b8a8ed 100%, #0000 150%), 
+    radial-gradient(4px 100px at 0px 108px, #b8a8ed, #0000),
+    radial-gradient(4px 100px at 300px 108px, #b8a8ed, #0000),
+    radial-gradient(1.5px 1.5px at 150px 54px, #b8a8ed 100%, #0000 150%), 
+    radial-gradient(4px 100px at 0px 264px, #b8a8ed, #0000),
+    radial-gradient(4px 100px at 300px 264px, #b8a8ed, #0000),
+    radial-gradient(1.5px 1.5px at 150px 132px, #b8a8ed 100%, #0000 150%), 
+    radial-gradient(4px 100px at 0px 229px, #b8a8ed, #0000),
+    radial-gradient(4px 100px at 300px 229px, #b8a8ed, #0000),
+    radial-gradient(1.5px 1.5px at 150px 114.5px, #b8a8ed 100%, #0000 150%), 
+    radial-gradient(4px 100px at 0px 132px, #b8a8ed, #0000),
+    radial-gradient(4px 100px at 300px 132px, #b8a8ed, #0000),
+    radial-gradient(1.5px 1.5px at 150px 66px, #b8a8ed 100%, #0000 150%), 
+    radial-gradient(4px 100px at 0px 144px, #b8a8ed, #0000),
+    radial-gradient(4px 100px at 300px 144px, #b8a8ed, #0000),
+    radial-gradient(1.5px 1.5px at 150px 72px, #b8a8ed 100%, #0000 150%), 
+    radial-gradient(4px 100px at 0px 289px, #b8a8ed, #0000),
+    radial-gradient(4px 100px at 300px 289px, #b8a8ed, #0000),
+    radial-gradient(1.5px 1.5px at 150px 144.5px, #b8a8ed 100%, #0000 150%), 
+    radial-gradient(4px 100px at 0px 119px, #b8a8ed, #0000),
+    radial-gradient(4px 100px at 300px 119px, #b8a8ed, #0000),
+    radial-gradient(1.5px 1.5px at 150px 59.5px, #b8a8ed 100%, #0000 150%), 
+    radial-gradient(4px 100px at 0px 210px, #b8a8ed, #0000),
+    radial-gradient(4px 100px at 300px 210px, #b8a8ed, #0000),
+    radial-gradient(1.5px 1.5px at 150px 105px, #b8a8ed 100%, #0000 150%), 
+    radial-gradient(4px 100px at 0px 157px, #b8a8ed, #0000),
+    radial-gradient(4px 100px at 300px 157px, #b8a8ed, #0000),
+    radial-gradient(1.5px 1.5px at 150px 78.5px, #b8a8ed 100%, #0000 150%), 
+    radial-gradient(4px 100px at 0px 138px, #b8a8ed, #0000),
+    radial-gradient(4px 100px at 300px 138px, #b8a8ed, #0000),
+    radial-gradient(1.5px 1.5px at 150px 69px, #b8a8ed 100%, #0000 150%), 
+    radial-gradient(4px 100px at 0px 193px, #b8a8ed, #0000),
+    radial-gradient(4px 100px at 300px 193px, #b8a8ed, #0000),
+    radial-gradient(1.5px 1.5px at 150px 96.5px, #b8a8ed 100%, #0000 150%);
+  background-size: 300px 119px, 300px 119px, 300px 119px, 300px 108px, 300px 108px, 300px 108px, 300px 264px, 300px 264px, 300px 264px, 300px 229px, 300px 229px, 300px 229px, 300px 132px, 300px 132px, 300px 132px, 300px 144px, 300px 144px, 300px 144px, 300px 289px, 300px 289px, 300px 289px, 300px 119px, 300px 119px, 300px 119px, 300px 210px, 300px 210px, 300px 210px, 300px 157px, 300px 157px, 300px 157px, 300px 138px, 300px 138px, 300px 138px, 300px 193px, 300px 193px, 300px 193px;
+  animation: rain-82e6074d 150s linear infinite;
+}
+
+@keyframes rain-82e6074d {
+  0% {
+    background-position: 0px 29px, 3px 29px, 151.5px 88.5px, 25px 100px, 28px 100px, 176.5px 154px, 50px 197px, 53px 197px, 201.5px 329px, 75px 183px, 78px 183px, 226.5px 297.5px, 100px 45px, 103px 45px, 251.5px 111px, 125px 72px, 128px 72px, 276.5px 144px, 150px 233px, 153px 233px, 301.5px 377.5px, 175px 41px, 178px 41px, 326.5px 100.5px, 200px 194px, 203px 194px, 351.5px 299px, 225px 79px, 228px 79px, 376.5px 157.5px, 250px 128px, 253px 128px, 401.5px 197px, 275px 67px, 278px 67px, 426.5px 163.5px;
+  }
+  to {
+    background-position: 0px 3242px, 3px 3242px, 151.5px 3301.5px, 25px 6256px, 28px 6256px, 176.5px 6310px, 50px 9173px, 53px 9173px, 201.5px 9305px, 75px 7282px, 78px 7282px, 226.5px 7396.5px, 100px 9021px, 103px 9021px, 251.5px 9087px, 125px 6840px, 128px 6840px, 276.5px 6912px, 150px 18151px, 153px 18151px, 301.5px 18295.5px, 175px 7062px, 178px 7062px, 326.5px 7121.5px, 200px 11324px, 203px 11324px, 351.5px 11429px, 225px 7301px, 228px 7301px, 376.5px 7379.5px, 250px 5510px, 253px 5510px, 401.5px 5579px, 275px 14349px, 278px 14349px, 426.5px 14445.5px;
+  }
+}
