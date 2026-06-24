@@ -60,7 +60,7 @@ document.addEventListener('DOMContentLoaded', () => {
 
                 animateNumber(yearsEl, 2);
                 animateNumber(diplomesEl, 2);
-                animateNumber(skillsEl, 8);
+                animateNumber(skillsEl, 10);
 
                 stats.forEach((s) => io.unobserve(s));
             }
