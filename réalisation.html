@@ -77,7 +77,7 @@
       <!-- En-tête -->
       <div class="mb-1 max-w-3xl mx-auto flex flex-col items-center">
         <p
-          class="text-xs uppercase tracking-widest text-[#5348d381] font-medium my-2"
+          class="text-xs uppercase tracking-widest text-white font-medium my-2"
         >
           Portfolio
         </p>
@@ -86,7 +86,7 @@
         >
           Mes réalisations
         </h1>
-        <p class="text-sm text-[#5348d381] leading-relaxed max-w-2xl mb-2">
+        <p class="text-sm text-white leading-relaxed max-w-2xl mb-2">
           Projets web, applications et intégrations - du concept à la mise en
           production.
         </p>
@@ -128,24 +128,26 @@
               class="flex items-center justify-between mt-6 pt-6 border-t border-[#5348d381]/30"
             >
               <span class="text-xs text-primary font-medium">2026</span>
-              <div
-                class="arrow-btn w-10 h-10 rounded-xl border border-[#5348d381]/50 bg-white/5 flex items-center justify-center hover:bg-[#122ac9]/20 transition-all"
-              >
-                <svg
-                  width="12"
-                  height="12"
-                  viewBox="0 0 24 24"
-                  fill="none"
-                  stroke="currentColor"
-                  stroke-width="2.5"
-                  stroke-linecap="round"
-                  stroke-linejoin="round"
-                  class="text-primary"
+              <a href="./page projet/CRM-NiceVolleyBall.html">
+                <div
+                  class="arrow-btn w-10 h-10 rounded-xl border border-[#5348d381]/50 bg-white/5 flex items-center justify-center hover:bg-[#122ac9]/20 transition-all"
                 >
-                  <path d="M7 17L17 7" />
-                  <path d="M7 7h10v10" />
-                </svg>
-              </div>
+                  <svg
+                    width="12"
+                    height="12"
+                    viewBox="0 0 24 24"
+                    fill="none"
+                    stroke="currentColor"
+                    stroke-width="2.5"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    class="text-primary"
+                  >
+                    <path d="M7 17L17 7" />
+                    <path d="M7 7h10v10" />
+                  </svg>
+                </div>
+              </a>
             </div>
           </div>
           <div
@@ -180,50 +182,56 @@
               <div class="flex flex-wrap gap-2 mb-4">
                 <span
                   class="tag bg-[#5348d381]/50 text-white/90 px-3 py-1 rounded-full text-xs font-medium"
-                  >React Native</span
+                  >TailwindCSS</span
                 >
                 <span
                   class="tag bg-[#5348d381]/50 text-white/90 px-3 py-1 rounded-full text-xs font-medium"
-                  >Expo</span
+                  >PHP</span
                 >
                 <span
                   class="tag bg-[#5348d381]/50 text-white/90 px-3 py-1 rounded-full text-xs font-medium"
-                  >Application</span
+                  >Docker</span
+                >
+                <span
+                  class="tag bg-[#5348d381]/50 text-white/90 px-3 py-1 rounded-full text-xs font-medium"
+                  >Nginx</span
                 >
               </div>
               <h2
                 class="text-lg md:text-xl font-semibold text-white mb-3 leading-tight"
               >
-                App mobile de suivi fitness
+                Iris Space - Application web scolaire (PWA)
               </h2>
-              <p class="text-sm text-[#5348d381] leading-relaxed">
-                Application cross-platform iOS/Android avec historique des
-                entraînements, notifications push et synchronisation cloud via
-                Firebase.
+              <p class="text-sm text-white leading-relaxed">
+                Projet de développement réalisé en équipe dans le cadre de ma formation à l'école IRIS Nice. 
+                L'objectif était de concevoir une application web progressive (PWA) centralisant la communication entre élèves,
+                professeurs et administration, en remplacement d'outils dispersés.
               </p>
             </div>
             <div
               class="flex items-center justify-between mt-6 pt-6 border-t border-[#5348d381]/30"
             >
-              <span class="text-xs text-[#5348d381] font-medium">2024</span>
-              <div
-                class="arrow-btn w-10 h-10 rounded-xl border border-[#5348d381]/50 bg-white/5 flex items-center justify-center hover:bg-[#122ac9]/20 transition-all"
-              >
-                <svg
-                  width="12"
-                  height="12"
-                  viewBox="0 0 24 24"
-                  fill="none"
-                  stroke="currentColor"
-                  stroke-width="2.5"
-                  stroke-linecap="round"
-                  stroke-linejoin="round"
-                  class="text-[#122ac9]"
+              <span class="text-xs text-[#5348d381] font-medium">2026</span>
+              <a href="./page projet/Iris-Space.html">
+                <div
+                  class="arrow-btn w-10 h-10 rounded-xl border border-[#5348d381]/50 bg-white/5 flex items-center justify-center hover:bg-[#122ac9]/20 transition-all"
                 >
-                  <path d="M7 17L17 7" />
-                  <path d="M7 7h10v10" />
-                </svg>
-              </div>
+                  <svg
+                    width="12"
+                    height="12"
+                    viewBox="0 0 24 24"
+                    fill="none"
+                    stroke="currentColor"
+                    stroke-width="2.5"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    class="text-primary"
+                  >
+                    <path d="M7 17L17 7" />
+                    <path d="M7 7h10v10" />
+                  </svg>
+                </div>
+              </a>
             </div>
           </div>
           <div
@@ -245,6 +253,82 @@
             </svg>
           </div>
         </div>
+        <!-- Card 3 -->
+        <div
+          class="proj-card flex rounded-3xl border border-[#5348d381] bg-[#122ac9]/20 backdrop-blur-sm overflow-hidden cursor-pointer hover:border-[#122ac9] hover:bg-[#122ac9]/30 transition-all duration-300 shadow-xl"
+          data-proj
+        >
+          <div class="flex-1 p-6 md:p-8 flex flex-col justify-between min-w-0">
+            <div>
+              <div class="flex flex-wrap gap-2 mb-4">
+                <span
+                  class="tag bg-[#5348d381]/50 text-white/90 px-3 py-1 rounded-full text-xs font-medium"
+                  >HTML5</span
+                >
+                <span
+                  class="tag bg-[#5348d381]/50 text-white/90 px-3 py-1 rounded-full text-xs font-medium"
+                  >CSS3</span
+                >
+                <span
+                  class="tag bg-[#5348d381]/50 text-white/90 px-3 py-1 rounded-full text-xs font-medium"
+                  >JavaScript</span
+                >
+              </div>
+              <h2
+                class="text-lg md:text-xl font-semibold text-white mb-3 leading-tight"
+              >
+                Site web - Techshop
+              </h2>
+              <p class="text-sm text-white leading-relaxed">
+                Refonte d’un site e-commerce  en une interface moderne, responsive et accessible, avec du JavaScript pour améliorer l’expérience utilisateur, tout en respectant les normes d’accessibilité et de performance.
+              </p>
+            </div>
+            <div
+              class="flex items-center justify-between mt-6 pt-6 border-t border-[#5348d381]/30"
+            >
+              <span class="text-xs text-primary font-medium">2026</span>
+              <a href="./réalisation.html#techshop">
+                <div
+                class="arrow-btn w-10 h-10 rounded-xl border border-[#5348d381]/50 bg-white/5 flex items-center justify-center hover:bg-[#122ac9]/20 transition-all"
+              >
+                <svg
+                  width="12"
+                  height="12"
+                  viewBox="0 0 24 24"
+                  fill="none"
+                  stroke="currentColor"
+                  stroke-width="2.5"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  class="text-primary"
+                >
+                  <path d="M7 17L17 7" />
+                  <path d="M7 7h10v10" />
+                </svg>
+              </div>
+              </a>
+            </div>
+          </div>
+          <div
+            class="thumb w-32 md:w-40 flex-shrink-0 flex items-center justify-center bg-[#122ac9]/10 border-r border-[#5348d381]/30"
+          >
+            <svg
+              width="32"
+              height="32"
+              viewBox="0 0 24 24"
+              fill="none"
+              stroke="currentColor"
+              stroke-width="2"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+              class="text-[#122ac9] w-12 h-12"
+            >
+              <rect x="5" y="2" width="14" height="20" rx="2" />
+              <path d="M12 18h.01" />
+            </svg>
+          </div>
+        </div>
+        <!-- fin Cards -->
       </div>
     </section>
     <!---------------- Le Footer --------------------->
