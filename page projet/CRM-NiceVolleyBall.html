@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>CRM-Nice VolleyBall</title>
+    <title>CRM - Nice VolleyBall</title>
     <link rel="stylesheet" href="./styles/style.css"/>
 </head>
 <body>
@@ -40,8 +40,8 @@
                     <li>
                     <a>Professionelle</a>
                     <ul class="p-2">
-                        <li><a>Veille technologique</a></li>
-                        <li><a>Tableau de compétence</a></li>
+                        <li><a href="../veille-technologique.html">Veille technologique</a></li>
+                        <li><a href="../tableau-de-synthèse.html">Tableau de synthèse</a></li>
                     </ul>
                     </li>
                 </ul>
@@ -60,8 +60,8 @@
                     <details>
                     <summary>Professionelle</summary>
                     <ul class="p-2 w-40 z-1 Pro">
-                        <li><a>Veille technologique</a></li>
-                        <li><a>Tableau de compétence</a></li>
+                        <li><a href="../veille-technologique.html">Veille technologique</a></li>
+                        <li><a href="../tableau-de-synthèse.html">Tableau de synthèse</a></li>
                     </ul>
                     </details>
                 </li>
@@ -71,6 +71,96 @@
         </nav>
     </header>
 
+    <!--============================Contenu du projet================================-->
+    <main class="pt-28 pb-20 px-5 md:px-10 lg:px-24 text-white max-w-6xl mx-auto">
+
+        <!-- 1. HERO : Titre + petite phrase d'accroche -->
+        <section class="mb-16">
+            <p class="text-sm uppercase tracking-widest text-blue-400 mb-2 font-mono">Projet Web — 2026</p>
+            <h1 class="text-4xl md:text-6xl font-bold mb-4">CRM - Nice VolleyBall</h1>
+            <p class="text-lg md:text-xl text-slate-300 max-w-2xl">
+                Un CRM pensé pour aider le club de Nice volley-ball à centraliser les données de ses adhérents et de ses événements.
+            </p>
+        </section>
+
+        <!-- 2. Carte "terminal" : infos rapides / stack technique -->
+        <section class="mb-16">
+            <div class="rounded-lg overflow-hidden border border-slate-700 bg-[#0d1424] shadow-lg max-w-3xl">
+                <div class="flex items-center gap-2 px-4 py-3 bg-[#1a2540] border-b border-slate-700">
+                    <span class="w-3 h-3 rounded-full bg-red-500"></span>
+                    <span class="w-3 h-3 rounded-full bg-yellow-400"></span>
+                    <span class="w-3 h-3 rounded-full bg-green-500"></span>
+                    <span class="ml-3 text-xs text-slate-400 font-mono">projet.info</span>
+                </div>
+                <div class="p-5 font-mono text-sm leading-relaxed overflow-x-auto">
+                    <p><span class="text-blue-400">const</span> <span class="text-slate-200">stack_utilise</span> = [<span class="text-green-400">"HTML"</span>, <span class="text-green-400">"TailwindCSS"</span>, <span class="text-green-400">"JavaScript"</span>, <span class="text-green-400">"Slim"</span>, <span class="text-green-400">"PostgreSQL"</span>, <span class="text-green-400">"docker"</span>,];</p>
+                    <p><span class="text-blue-400">const</span> <span class="text-slate-200">role</span> = <span class="text-green-400">"Pôle Pilotage/Gestion de Projet"</span>;</p>
+                    <p><span class="text-blue-400">const</span> <span class="text-slate-200">duree</span> = <span class="text-green-400">"1 semaine"</span>;</p>
+                    <p><span class="text-blue-400">const</span> <span class="text-slate-200">contexte</span> = <span class="text-green-400">"Réalisation Professionnelle"</span>;</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- 3. Description longue du projet -->
+        <section class="mb-16 max-w-3xl">
+            <h2 class="text-2xl font-semibold mb-4 border-l-4 border-blue-600 pl-3">Le projet</h2>
+            <p class="text-slate-300 leading-relaxed">
+                développer un prototype fonctionnel de dashboard interne pour le Nice Volley Ball, permettant d'agréger automatiquement les données de billetterie via l'API Weezevent, de les stocker dans PostgreSQL, de segmenter les contacts et de synchroniser certains segments avec Brevo, afin de résoudre la dispersion des données du club et de offrir une vision claire du parcours des supporters.
+            </p>
+        </section>
+
+        <!-- 4. Ce que tu as fait concrètement -->
+        <section class="mb-16 max-w-3xl">
+            <h2 class="text-2xl font-semibold mb-4 border-l-4 border-blue-600 pl-3">Ce que j'ai réalisé</h2>
+            <ul class="space-y-3 text-slate-300">
+                <li class="flex gap-3">
+                    <span class="text-blue-400 font-bold">→</span>
+                    <span>Réalisation d'un Cahier des charges</span>
+                </li>
+                <li class="flex gap-3">
+                    <span class="text-blue-400 font-bold">→</span>
+                    <span>Réalisation d'un WBS</span>
+                </li>
+                <li class="flex gap-3">
+                    <span class="text-blue-400 font-bold">→</span>
+                    <span>Réalisation et mise à jour d'un Tableau de Kanban et Gantt</span>
+                </li>
+                <li class="flex gap-3">
+                    <span class="text-blue-400 font-bold">→</span>
+                    <span>Réalisation d'un Backlog complet</span>
+                </li>
+            </ul>
+        </section>
+
+        <!-- 5. Galerie d'images : remplace ces blocs par tes <img> -->
+        <section>
+            <h2 class="text-2xl font-semibold mb-6 border-l-4 border-blue-600 pl-3">Aperçu du projet</h2>
+            <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
+
+                <!-- Bloc image 1 -->
+                <div class="aspect-video rounded-lg border-2 border-dashed border-slate-600 flex items-center justify-center bg-[#101a30] text-slate-500 text-center px-4">
+                    <span>Image 1 — Page d'accueil du CRM<br/><span class="text-xs">(remplace ce div par une balise &lt;img&gt;)</span></span>
+                </div>
+
+                <!-- Bloc image 2 -->
+                <div class="aspect-video rounded-lg border-2 border-dashed border-slate-600 flex items-center justify-center bg-[#101a30] text-slate-500 text-center px-4">
+                    <span>Image 2 — Formulaire d'adhérent</span>
+                </div>
+
+                <!-- Bloc image 3 -->
+                <div class="aspect-video rounded-lg border-2 border-dashed border-slate-600 flex items-center justify-center bg-[#101a30] text-slate-500 text-center px-4">
+                    <span>Image 3 — Tableau des équipes</span>
+                </div>
+
+                <!-- Bloc image 4 -->
+                <div class="aspect-video rounded-lg border-2 border-dashed border-slate-600 flex items-center justify-center bg-[#101a30] text-slate-500 text-center px-4">
+                    <span>Image 4 — Version mobile</span>
+                </div>
+
+            </div>
+        </section>
+
+    </main>
 
     <!---------------- Le Footer --------------------->
     <footer
