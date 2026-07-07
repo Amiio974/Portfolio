@@ -76,9 +76,7 @@
         <!-- En-tête + bouton de téléchargement -->
         <section class="mb-10 flex flex-col md:flex-row md:items-end md:justify-between gap-4 max-h-[500px] overflow-y-auto">
             <div>
-                <p class="text-sm uppercase tracking-widest text-blue-400 mb-2 font-mono">Fiche de synthèse</p>
-                <h1 class="text-3xl md:text-5xl font-bold mb-2">CRM - Nice VolleyBall</h1>
-                <p class="text-slate-300 max-w-2xl">Récapitulatif des compétences et tâches réalisées sur ce projet.</p>
+                <p class="text-sm uppercase tracking-widest text-blue-400 mb-2 font-mono">Tableau de synthèse</p>
             </div>
 
             <!-- Bouton de téléchargement du fichier original -->
@@ -94,57 +92,14 @@
             </a>
         </section>
 
-        <!-- Tableau : la fiche affichée directement -->
-        <section class="overflow-x-auto rounded-lg border border-slate-700">
-            <table class="w-full text-sm text-left">
-                <thead class="bg-[#122ac9] text-white font-mono uppercase text-xs tracking-wide">
-                    <tr>
-                        <th class="px-4 py-3">Compétence</th>
-                        <th class="px-4 py-3">Tâche réalisée</th>
-                        <th class="px-4 py-3">Outils / Langages</th>
-                        <th class="px-4 py-3">Niveau</th>
-                    </tr>
-                </thead>
-                <tbody class="divide-y divide-slate-700">
-                    <tr class="bg-[#101a30]">
-                        <td class="px-4 py-3 font-medium">Concevoir une interface utilisateur</td>
-                        <td class="px-4 py-3 text-slate-300">Maquette et intégration de la navbar, du footer et des pages projet.</td>
-                        <td class="px-4 py-3 text-slate-300 font-mono">HTML / TailwindCSS / daisyUI</td>
-                        <td class="px-4 py-3">
-                            <span class="badge bg-green-600 border-none text-white">Maîtrisé</span>
-                        </td>
-                    </tr>
-                    <tr class="bg-[#0d1424]">
-                        <td class="px-4 py-3 font-medium">Développer une interface de gestion</td>
-                        <td class="px-4 py-3 text-slate-300">Formulaire d'ajout / modification des adhérents et des équipes.</td>
-                        <td class="px-4 py-3 text-slate-300 font-mono">JavaScript</td>
-                        <td class="px-4 py-3">
-                            <span class="badge bg-yellow-500 border-none text-black">En cours</span>
-                        </td>
-                    </tr>
-                    <tr class="bg-[#101a30]">
-                        <td class="px-4 py-3 font-medium">Structurer une base de données</td>
-                        <td class="px-4 py-3 text-slate-300">Modélisation des tables adhérents, équipes et matchs.</td>
-                        <td class="px-4 py-3 text-slate-300 font-mono">MCD / SQL</td>
-                        <td class="px-4 py-3">
-                            <span class="badge bg-green-600 border-none text-white">Maîtrisé</span>
-                        </td>
-                    </tr>
-                    <tr class="bg-[#0d1424]">
-                        <td class="px-4 py-3 font-medium">Travailler en autonomie</td>
-                        <td class="px-4 py-3 text-slate-300">Gestion du planning et des priorités sur la durée du projet.</td>
-                        <td class="px-4 py-3 text-slate-300 font-mono">Trello</td>
-                        <td class="px-4 py-3">
-                            <span class="badge bg-green-600 border-none text-white">Maîtrisé</span>
-                        </td>
-                    </tr>
-                </tbody>
-            </table>
+        <!--Section de l'affichage de la fiche de synthèse-->
+        <section>
+            <img
+                src="./images/fiche-synthese-crm-nvb.png"
+                alt="Fiche de synthèse du CRM NVB"
+                class="w-full h-auto rounded-lg shadow-lg"
+            />
         </section>
-
-        <p class="text-xs text-slate-500 mt-4 font-mono">
-            * Remplace les lignes ci-dessus par les données de ton propre fichier Excel.
-        </p>
     </main>
 
     <!---------------- Le Footer --------------------->
