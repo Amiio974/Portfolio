@@ -12,7 +12,7 @@ createTimeline()
 .add(chars, {
     y: '-115%',
     loop: true,
-    loopDelay: 5500,
+    loopDelay: 9500,
     duration: 750,
     ease: 'inOut(2)',
 }, stagger(150, { from: 'center' }));
