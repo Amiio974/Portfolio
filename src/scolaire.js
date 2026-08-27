@@ -58,9 +58,9 @@ document.addEventListener('DOMContentLoaded', () => {
                     }, i * 100);
                 });
 
-                animateNumber(yearsEl, 1);
+                animateNumber(yearsEl, 2);
                 animateNumber(diplomesEl, 2);
-                animateNumber(skillsEl, 10);
+                animateNumber(skillsEl, 13);
 
                 stats.forEach((s) => io.unobserve(s));
             }
