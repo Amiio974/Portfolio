@@ -1,10 +1,11 @@
 <!DOCTYPE html>
 <html lang="fr">
 <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Exemple Fiche de Synthèse</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mes stages</title>
     <link rel="stylesheet" href="./styles/style.css"/>
+    <link rel="stylesheet" href="./styles/style_contact.css"/>
 </head>
 <body>
     <header>
@@ -73,44 +74,61 @@
         </nav>
     </header>
 
-    <!--============================Fiche de synthèse================================-->
     <main class="pt-28 pb-20 container text-white max-w-6xl mx-auto">
-        <!-- En-tête + bouton de téléchargement -->
-        <section class="mb-10 flex flex-col md:flex-row md:items-end md:justify-between gap-4 max-h-[500px] overflow-y-auto">
-            <div>
-                <p class="text-sm uppercase tracking-widest text-blue-400 mb-2 font-mono">Tableau de synthèse</p>
-            </div>
+    <!------------------- 1ième Section------------------------->
+        <div>
+            <h1 class="mb-2 text-[25px] font-medium leading-tight text-slate-50 text-center">
+                Mes Stage
+            </h1>
+            <p class="mb-5 text-sm text-blue-400 text-center">
+                2 stage pour les deux années de BTS
+            </p>
+        </div>
 
-            <!-- Bouton de téléchargement du fichier original -->
-            <a
-                href="./Images/Tableau de synthèse - Debaisieux Matthieu.xlsx"
-                download
-                class="btn bg-[#122ac9] hover:bg-[#5348d3] border-none text-white gap-2 w-fit"
+        <section class="p-5 flex flex-col justify-center gap-10 md:flex-row md:gap-0">
+            <div
+            class="relative rounded-lg p-2 border-2 border-[#5348d381] shadow-xl mx-5 md:w-1/3"
             >
-                <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
-                    <path stroke-linecap="round" stroke-linejoin="round" d="M12 3v12m0 0l-4-4m4 4l4-4M4 21h16"/>
+            <div class="relative flex text-center">
+                <div class="flex pl-3.5 pt-3">
+                <svg
+                    viewBox="0 0 24 24"
+                    fill="currentColor"
+                    class="-ml-0.5 mr-1.5 h-3 w-3 text-red-500/20"
+                >
+                    <circle r="12" cy="12" cx="12"></circle>
                 </svg>
-                Télécharger le fichier Excel
-            </a>
-        </section>
-
-        <!--Section de l'affichage de la fiche de synthèse-->
-        <section class="mb-10">
-            <iframe
-                src="./Images/Tableau de synthèse - Debaisieux Matthieu.pdf"
-                class="w-full h-[600px] border-2 border-gray-300 rounded-lg"
-                title="Tableau de synthèse"
-            ></iframe>
+                <svg
+                    viewBox="0 0 24 24"
+                    fill="currentColor"
+                    class="-ml-0.75 mr-1.5 h-3 w-3 text-yellow-500/20"
+                >
+                    <circle r="12" cy="12" cx="12"></circle>
+                </svg>
+                <svg
+                    viewBox="0 0 24 24"
+                    fill="currentColor"
+                    class="-ml-0.75 mr-1.5 h-3 w-3 text-green-500/20 open-modal"
+                >
+                    <circle r="12" cy="12" cx="12"></circle>
+                </svg>
+                </div>
+                <span class="absolute inset-x-0 top-2 text-xs text-blue-400">
+                AstrowareConception.tsx
+                </span>
+            </div>
+            <div class="mt-5 space-y-1.5 px-5 pb-10"></div>
+            </div>
         </section>
     </main>
-
     <!---------------- Le Footer --------------------->
     <footer
-        class="footer sm:footer-horizontal bg-neutral text-neutral-content p-10"
-        >
+    class="footer sm:footer-horizontal bg-neutral text-neutral-content p-10"
+    >
         <aside>
             <h5><a class="text-xl profil">Debaisieux Matthieu</a></h5>
         </aside>
+        
         <div class="social">
             <h6 class="footer-title">Social</h6>
             <div class="grid grid-flow-col gap-4">
@@ -155,7 +173,8 @@
             </a>
             </div>
         </div>
-    </footer>
-    <script type="module" src="../src/main.js"></script>
-</body>
+        </footer>
+        <script type="module" src="./src/main.js"></script>
+        <script type="module" src="./src/réalisations.js"></script>
+    </body>
 </html>

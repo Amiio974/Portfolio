@@ -8,46 +8,64 @@
     <link rel="stylesheet" href="./styles/style_contact.css"/>
 </head>
 <body>
-    <header class="z-99">
+    <header>
         <!--============================Navbar================================-->
         <nav>
             <div class="navbar shadow-sm">
             <div class="navbar-start">
                 <div class="dropdown">
                 <div tabindex="0" role="button" class="btn lg:hidden Drop">
-                    <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor"> <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h8m-8 6h16" /> </svg>
+                    <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    class="h-5 w-5"
+                    fill="none"
+                    viewBox="0 0 24 24"
+                    stroke="currentColor"
+                    >
+                    <path
+                        stroke-linecap="round"
+                        stroke-linejoin="round"
+                        stroke-width="2"
+                        d="M4 6h16M4 12h8m-8 6h16"
+                    />
+                    </svg>
                 </div>
                 <ul
                     tabindex="-1"
-                    class="menu menu-sm dropdown-content z-1 mt-3 w-52 p-2 shadow">
-                    <li><a href="./index.html">Accueil</a></li>
-                    <li><a href="./présentation.html">Présentation</a></li>
-                    <li><a href="./réalisation.html">Réalisation</a></li>
-                    <li><a href="./contact.html">Contact</a></li>
+                    class="menu menu-sm dropdown-content z-1 mt-3 w-52 p-2 shadow"
+                >
+                    <li><a href="../index.html">Accueil</a></li>
+                    <li><a href="../présentation.html">Présentation</a></li>
+                    <li><a href="../réalisation.html">Réalisation</a></li>
+                    <li><a href="../stage.html">Stages</a></li>
+                    <li><a href="../contact.html">Contact</a></li>
                     <li>
                     <a>Professionelle</a>
                     <ul class="p-2">
-                        <li><a href="./veille-technologique.html">Veille technologique</a></li>
-                        <li><a href="./tableau-de-synthèse.html">Tableau de synthèse</a></li>
+                        <li><a href="../veille-technologique.html">Veille technologique</a></li>
+                        <li><a href="../tableau-de-synthèse.html">Tableau de synthèse</a></li>
                     </ul>
                     </li>
                 </ul>
                 </div>
-                <a class="text-xl profil" href="./index.html">Debaisieux Matthieu</a>
+                <a class="text-xl profil" href="./index.html"
+                >Debaisieux Matthieu</a
+                >
             </div>
             <div class="navbar-end hidden lg:flex">
                 <ul class="menu menu-horizontal px-1">
-                <li><a href="./index.html">Accueil</a></li>
-                <li><a href="./présentation.html">Présentation</a></li>
-                <li><a href="./réalisation.html">Réalisation</a></li>
-                <li><a href="./contact.html">Contact</a></li>
+                <li><a href="../index.html">Accueil</a></li>
+                <li><a href="../présentation.html">Présentation</a></li>
+                <li><a href="../réalisation.html">Réalisation</a></li>
+                <li><a href="../stage.html">Stages</a></li>
+                <li><a href="../contact.html">Contact</a></li>
                 <li>
                     <details>
                     <summary>Professionelle</summary>
-                        <ul class="p-2 w-40 z-1 Pro">
-                            <li><a href="./veille-technologique.html">Veille technologique</a></li>
-                            <li><a href="./tableau-de-synthèse.html">Tableau de synthèse</a></li>
-                        </ul>
+                    <ul class="p-2 w-40 z-1 Pro">
+                        <li><a href="../veille-technologique.html">Veille technologique</a></li>
+                        <li><a href="../tableau-de-synthèse.html">Tableau de synthèse</a></li>
+                    </ul>
                     </details>
                 </li>
                 </ul>
@@ -55,112 +73,117 @@
             </div>
         </nav>
     </header>
-<!---------------- Formulaire --------------------->
-    <section class="Formulaire">
-        <div class="form-container">
-            <div class="form"> 
-                <!--Formulaire venant de uiniverse.io-->
-                <span class="heading">Contactez moi</span>
-                <input placeholder="Nom" type="text"
-                id="Nom" class="input">
-                <input placeholder="Email" id="mail" type="email" class="input">
-                <textarea placeholder="Votre message" rows="10" cols="30" id="message" name="message" class="textarea"></textarea>
-                <div class="button-container">
-                <div class="send-button">envoyer</div>
-                    <div class="reset-button-container">
-                        <div id="reset-btn" class="reset-button">effacer</div>
+
+    <main class="pb-20 container text-white max-w-6xl mx-auto">
+    <!---------------- Formulaire --------------------->
+        <section class="Formulaire">
+            <div class="form-container">
+                <div class="form"> 
+                    <!--Formulaire venant de uiniverse.io-->
+                    <h1 class="heading">Contactez moi</h1>
+                    <input placeholder="Nom" type="text"
+                    id="Nom" class="input">
+                    <input placeholder="Email" id="mail" type="email" class="input">
+                    <textarea placeholder="Votre message" rows="10" cols="30" id="message" name="message" class="textarea"></textarea>
+                    <div class="button-container">
+                    <div class="send-button">envoyer</div>
+                        <div class="reset-button-container">
+                            <div id="reset-btn" class="reset-button">effacer</div>
+                        </div>
                     </div>
-                </div>
+                    </div>
                 </div>
             </div>
-        </div>
-    </section>
+        </section>
 
-<div class="divider divider-info"></div>
-<!---------------- Me contacter -------------------->
-    <section class="flex flex-col items-center p-5 gap-8">
-        <div class="flex flex-col lg:flex-row items-center lg:items-stretch gap-8 w-full max-w-4xl">
-            <div class="flex flex-col items-center justify-center gap-3 lg:w-2/5 group relative w-80 h-72 bg-slate-900 rounded-2xl overflow-hidden flex flex-col items-center justify-center gap-2 text-center border border-white/10 hover:border-blue-400/40 transition-all duration-300 hover:shadow-[0_0_40px_rgba(96,165,250,0.12)] z-0">
-            <!-- Fond animé -->
-                <div class="absolute inset-0 h-24 group-hover:h-full bg-[linear-gradient(135deg,#1f2087bc,#122ac9,#1258ca,#5348d381,#082f81)] rounded-t-2xl group-hover:rounded-2xl transition-all duration-500 z-1"></div>
-                <!-- Photo -->
-                <div class="w-28 h-28 mt-8 border-4 border-slate-900 rounded-full overflow-hidden z-10 transition-all duration-500 z-2 group-hover:scale-150 group-hover:-translate-x-29 group-hover:-translate-y-15">
-                    <img class="w-full h-full object-cover" src="./Images/Profil.webp" alt="Photo de profil">
-                </div>
-            <!-- Infos -->
-                <div class="z-10 transition-all duration-500 group-hover:-translate-y-10">
-                    <span class="text-xl font-bold text-slate-100 transition-colors duration-300">Debaisieux Matthieu</span>
-                    <p class="text-sm text-slate-400 group-hover:text-slate-200 transition-colors duration-300">Etudiant BTS SIO Slam</p>
-                </div>
-            <!-- Bouton -->
-            <a href="mailto:matthieu.debaisieux.pro@gmail.com"
-            class="bg-blue-700 px-4 py-1 text-slate-50 rounded-md z-10 hover:scale-125 hover:bg-blue-500 transition-all duration-500">
-            Mon Mail
-            </a>
-        </div>
-    <!-- La map google -->
-            <aside class="flex flex-col gap-2 lg:w-3/5 w-full">
-                <!-- le Browser -->
-                    <div class="browser">
-                        <!-- mini tabs -->
-                    <div class="tabs-head">
-                        <div class="tabs">
-                        <div class="tab-open">
-                            <div class="rounded-l"><div class="mask-round"></div></div>
-                            <span>Maps</span>
-                            <div class="close-tab">✕</div>
-                            <div class="rounded-r"><div class="mask-round"></div></div>
-                        </div>
-                        </div>
-            <!-- les petit incone (haut droite) -->
-                        <div class="window-opt">
-                        <button>-</button>
-                        <button>□</button>
-                        <button class="window-close">✕</button>
-                        </div>
+    <div class="divider divider-info"></div>
+    <!---------------- Me contacter -------------------->
+        <section class="flex flex-col items-center p-5 gap-8">
+            <h2 class="text-2xl font-bold text-slate-100 mb-5">Mes informations</h2>
+            <div class="flex flex-col lg:flex-row items-center lg:items-stretch gap-8 w-full max-w-4xl">
+                <div class="flex flex-col items-center justify-center gap-3 lg:w-2/5 group relative w-80 h-72 bg-slate-900 rounded-2xl overflow-hidden flex flex-col items-center justify-center gap-2 text-center border border-white/10 hover:border-blue-400/40 transition-all duration-300 hover:shadow-[0_0_40px_rgba(96,165,250,0.12)] z-0">
+                <!-- Fond animé -->
+                    <div class="absolute inset-0 h-24 group-hover:h-full bg-[linear-gradient(135deg,#1f2087bc,#122ac9,#1258ca,#5348d381,#082f81)] rounded-t-2xl group-hover:rounded-2xl transition-all duration-500 z-1"></div>
+                    <!-- Photo -->
+                    <div class="w-28 h-28 mt-8 border-4 border-slate-900 rounded-full overflow-hidden z-10 transition-all duration-500 z-2 group-hover:scale-150 group-hover:-translate-x-29 group-hover:-translate-y-15">
+                        <img class="w-full h-full object-cover" src="./Images/Profil.webp" alt="Photo de profil">
                     </div>
-                <!-- Retour avat/arrière  -->
-                    <div class="head-browser">
-                        <button>←</button>
-                        <button disabled="">→</button>
-                <!-- Le "lien" du browser -->
-                        <input
-                        type="text"
-                        name=""
-                        id=""
-                        placeholder="Search Google or type URL"
-                        value="Habitation.co"
-                        />
-
-                        <button>⋮</button>
-
-                        <button class="star">✰</button>
+                <!-- Infos -->
+                    <div class="z-10 transition-all duration-500 group-hover:-translate-y-10">
+                        <span class="text-xl font-bold text-slate-100 transition-colors duration-300">Debaisieux Matthieu</span>
+                        <p class="text-sm text-slate-400 group-hover:text-slate-200 transition-colors duration-300">Etudiant BTS SIO Slam</p>
                     </div>
-                <!-- ajout de la map en dessous -->
-                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d48237.911073282376!2d7.098436849999998!3d43.6469802!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x12cdd36d75315321%3A0x452c5dcbe7f3d151!2s06270%20Villeneuve-Loubet!5e1!3m2!1sfr!2sfr!4v1775039414511!5m2!1sfr!2sfr" loading="lazy" referrerpolicy="no-referrer-when-downgrade" class="w-full h-64"></iframe>
-                </div>
-            </aside>
-        </div>
-    </section>
+                <!-- Bouton -->
+                <a href="mailto:matthieu.debaisieux.pro@gmail.com"
+                class="bg-blue-700 px-4 py-1 text-slate-50 rounded-md z-10 hover:scale-125 hover:bg-blue-500 transition-all duration-500">
+                Mon Mail
+                </a>
+            </div>
+        <!-- La map google -->
+                <aside class="flex flex-col gap-2 lg:w-3/5 w-full">
+                    <!-- le Browser -->
+                        <div class="browser">
+                            <!-- mini tabs -->
+                        <div class="tabs-head">
+                            <div class="tabs">
+                            <div class="tab-open">
+                                <div class="rounded-l"><div class="mask-round"></div></div>
+                                <span>Maps</span>
+                                <div class="close-tab">✕</div>
+                                <div class="rounded-r"><div class="mask-round"></div></div>
+                            </div>
+                            </div>
+                <!-- les petit incone (haut droite) -->
+                            <div class="window-opt">
+                            <button>-</button>
+                            <button>□</button>
+                            <button class="window-close">✕</button>
+                            </div>
+                        </div>
+                    <!-- Retour avat/arrière  -->
+                        <div class="head-browser">
+                            <button>←</button>
+                            <button disabled="">→</button>
+                    <!-- Le "lien" du browser -->
+                            <input
+                            type="text"
+                            name=""
+                            id=""
+                            placeholder="Search Google or type URL"
+                            value="Habitation.co"
+                            />
 
-<!--------------- Pour télécharger mon CV -------->
-    <article>
-        <!-- Bouton de téléchargement du fichier original -->
-        <div class="divider divider-info"></div>
-        <div class="flex flex-col items-center gap-4 p-5">
-            <h1 class="text-2xl font-bold text-slate-100 mb-5">Mon CV</h1>
-            <a
-                href="./Images/CV Debaisieux matthieu.pdf"
-                download
-                class="btn bg-[#122ac9] hover:bg-[#5348d3] border-none text-white gap-2 w-fit mb-5"
-            >
-                <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
-                    <path stroke-linecap="round" stroke-linejoin="round" d="M12 3v12m0 0l-4-4m4 4l4-4M4 21h16"/>
-                </svg>
-                Télécharger mon CV
-            </a>
-        </div>
-    </article>
+                            <button>⋮</button>
+
+                            <button class="star">✰</button>
+                        </div>
+                    <!-- ajout de la map en dessous -->
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d48237.911073282376!2d7.098436849999998!3d43.6469802!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x12cdd36d75315321%3A0x452c5dcbe7f3d151!2s06270%20Villeneuve-Loubet!5e1!3m2!1sfr!2sfr!4v1775039414511!5m2!1sfr!2sfr" loading="lazy" referrerpolicy="no-referrer-when-downgrade" class="w-full h-64"></iframe>
+                    </div>
+                </aside>
+            </div>
+        </section>
+
+    <!--------------- Pour télécharger mon CV -------->
+        <article>
+            <!-- Bouton de téléchargement du fichier original -->
+            <div class="divider divider-info"></div>
+            <div class="flex flex-col items-center gap-4 p-5">
+                <h3 class="text-2xl font-bold text-slate-100 mb-5">Mon CV</h3>
+                <a
+                    href="./Images/CV Debaisieux matthieu.pdf"
+                    download
+                    class="btn bg-[#122ac9] hover:bg-[#5348d3] border-none text-white gap-2 w-fit mb-5"
+                >
+                    <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                        <path stroke-linecap="round" stroke-linejoin="round" d="M12 3v12m0 0l-4-4m4 4l4-4M4 21h16"/>
+                    </svg>
+                    Télécharger mon CV
+                </a>
+            </div>
+        </article>
+    </main>
+
 <!---------------- Le Footer --------------------->
     <footer class="footer sm:footer-horizontal bg-neutral text-neutral-content p-10">
         <aside>

@@ -9,127 +9,284 @@
   </head>
   <body>
     <header>
-      <!--============================Navbar================================-->
-      <nav>
-        <div class="navbar shadow-sm">
-          <div class="navbar-start">
-            <div class="dropdown">
-              <div tabindex="0" role="button" class="btn lg:hidden Drop">
-                <svg
-                  xmlns="http://www.w3.org/2000/svg"
-                  class="h-5 w-5"
-                  fill="none"
-                  viewBox="0 0 24 24"
-                  stroke="currentColor"
+        <!--============================Navbar================================-->
+        <nav>
+            <div class="navbar shadow-sm">
+            <div class="navbar-start">
+                <div class="dropdown">
+                <div tabindex="0" role="button" class="btn lg:hidden Drop">
+                    <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    class="h-5 w-5"
+                    fill="none"
+                    viewBox="0 0 24 24"
+                    stroke="currentColor"
+                    >
+                    <path
+                        stroke-linecap="round"
+                        stroke-linejoin="round"
+                        stroke-width="2"
+                        d="M4 6h16M4 12h8m-8 6h16"
+                    />
+                    </svg>
+                </div>
+                <ul
+                    tabindex="-1"
+                    class="menu menu-sm dropdown-content z-1 mt-3 w-52 p-2 shadow"
                 >
-                  <path
-                    stroke-linecap="round"
-                    stroke-linejoin="round"
-                    stroke-width="2"
-                    d="M4 6h16M4 12h8m-8 6h16"
-                  />
-                </svg>
-              </div>
-              <ul
-                tabindex="-1"
-                class="menu menu-sm dropdown-content z-1 mt-3 w-52 p-2 shadow"
-              >
-                <li><a href="./index.html">Accueil</a></li>
-                <li><a href="./présentation.html">Présentation</a></li>
-                <li><a href="./réalisation.html">Réalisation</a></li>
-                <li><a href="./contact.html">Contact</a></li>
-                <li>
-                  <a>Professionelle</a>
-                  <ul class="p-2">
-                    <li><a href="./veille-technologique.html">Veille technologique</a></li>
-                    <li><a href="./tableau-de-synthèse.html">Tableau de synthèse</a></li>
-                  </ul>
-                </li>
-              </ul>
+                    <li><a href="../index.html">Accueil</a></li>
+                    <li><a href="../présentation.html">Présentation</a></li>
+                    <li><a href="../réalisation.html">Réalisation</a></li>
+                    <li><a href="../stage.html">Stages</a></li>
+                    <li><a href="../contact.html">Contact</a></li>
+                    <li>
+                    <a>Professionelle</a>
+                    <ul class="p-2">
+                        <li><a href="../veille-technologique.html">Veille technologique</a></li>
+                        <li><a href="../tableau-de-synthèse.html">Tableau de synthèse</a></li>
+                    </ul>
+                    </li>
+                </ul>
+                </div>
+                <a class="text-xl profil" href="./index.html"
+                >Debaisieux Matthieu</a
+                >
             </div>
-            <a class="text-xl profil" href="./index.html"
-              >Debaisieux Matthieu</a
-            >
-          </div>
-          <div class="navbar-end hidden lg:flex">
-            <ul class="menu menu-horizontal px-1">
-              <li><a href="./index.html">Accueil</a></li>
-              <li><a href="./présentation.html">Présentation</a></li>
-              <li><a href="./réalisation.html">Réalisation</a></li>
-              <li><a href="./contact.html">Contact</a></li>
-              <li>
-                <details>
-                  <summary>Professionelle</summary>
-                  <ul class="p-2 w-40 z-1 Pro">
-                    <li><a href="./veille-technologique.html">Veille technologique</a></li>
-                    <li><a href="./tableau-de-synthèse.html">Tableau de synthèse</a></li>
-                  </ul>
-                </details>
-              </li>
-            </ul>
-          </div>
-        </div>
-      </nav>
+            <div class="navbar-end hidden lg:flex">
+                <ul class="menu menu-horizontal px-1">
+                <li><a href="../index.html">Accueil</a></li>
+                <li><a href="../présentation.html">Présentation</a></li>
+                <li><a href="../réalisation.html">Réalisation</a></li>
+                <li><a href="../stage.html">Stages</a></li>
+                <li><a href="../contact.html">Contact</a></li>
+                <li>
+                    <details>
+                    <summary>Professionelle</summary>
+                    <ul class="p-2 w-40 z-1 Pro">
+                        <li><a href="../veille-technologique.html">Veille technologique</a></li>
+                        <li><a href="../tableau-de-synthèse.html">Tableau de synthèse</a></li>
+                    </ul>
+                    </details>
+                </li>
+                </ul>
+            </div>
+            </div>
+        </nav>
     </header>
 
-    <!---------------- 1er Section --------------------->
-    <section class="bg-[rgb(15,23,43)] py-20 px-4 md:px-8">
-      <!-- En-tête -->
-      <div class="mb-1 max-w-3xl mx-auto flex flex-col items-center">
-        <p
-          class="text-xs uppercase tracking-widest text-white font-medium my-2"
-        >
-          Portfolio
-        </p>
-        <h1
-          class="text-4xl md:text-5xl font-medium text-white leading-tight mb-3"
-        >
-          Mes réalisations
-        </h1>
-        <p class="text-sm text-white leading-relaxed max-w-2xl mb-2">
-          Projets web, applications et intégrations - du concept à la mise en
-          production.
-        </p>
-      </div>
+    <main class="pb-20 container text-white max-w-6xl mx-auto">
+      <!---------------- 1er Section --------------------->
+      <section class="bg-[rgb(15,23,43)] py-20 px-4 md:px-8">
+        <!-- En-tête -->
+        <div class="mb-1 max-w-3xl mx-auto flex flex-col items-center">
+          <h1
+            class="text-4xl md:text-5xl font-medium text-white leading-tight mb-3"
+          >
+            Mes réalisations
+          </h1>
+          <p class="text-sm text-blue-400 leading-relaxed max-w-2xl mb-2">
+            Projets web, applications et intégrations - du concept à la mise en
+            production.
+          </p>
+        </div>
 
-      <!-- Liste des projets -->
-      <div class="flex flex-col gap-6 max-w-4xl mx-auto" id="proj-list">
-        <!-- Card 1 -->
-        <div
-          class="proj-card flex rounded-3xl border border-[#5348d381] bg-[#122ac9]/20 backdrop-blur-sm overflow-hidden cursor-pointer hover:border-[#122ac9] hover:bg-[#122ac9]/30 transition-all duration-300 shadow-xl"
-          data-proj
-        >
-          <div class="flex-1 p-6 md:p-8 flex flex-col justify-between min-w-0">
-            <div>
-              <div class="flex flex-wrap gap-2 mb-4">
-                <span
-                  class="tag bg-[#5348d381]/50 text-white/90 px-3 py-1 rounded-full text-xs font-medium"
-                  >TailwindCSS</span
+        <!-- Liste des projets -->
+        <div class="flex flex-col gap-6 max-w-4xl mx-auto" id="proj-list">
+          <!-- Card 1 -->
+          <div
+            class="proj-card flex rounded-3xl border border-[#5348d381] bg-[#122ac9]/20 backdrop-blur-sm overflow-hidden cursor-pointer hover:border-[#122ac9] hover:bg-[#122ac9]/30 transition-all duration-300 shadow-xl"
+            data-proj
+          >
+            <div class="flex-1 p-6 md:p-8 flex flex-col justify-between min-w-0">
+              <div>
+                <div class="flex flex-wrap gap-2 mb-4">
+                  <span
+                    class="tag bg-[#5348d381]/50 text-white/90 px-3 py-1 rounded-full text-xs font-medium"
+                    >TailwindCSS</span
+                  >
+                  <span
+                    class="tag bg-[#5348d381]/50 text-white/90 px-3 py-1 rounded-full text-xs font-medium"
+                    >PostgreSQL</span
+                  >
+                  <span
+                    class="tag bg-[#5348d381]/50 text-white/90 px-3 py-1 rounded-full text-xs font-medium"
+                    >Slim</span
+                  >
+                </div>
+                <h2
+                  class="text-lg md:text-xl font-semibold text-white mb-3 leading-tight"
                 >
-                <span
-                  class="tag bg-[#5348d381]/50 text-white/90 px-3 py-1 rounded-full text-xs font-medium"
-                  >PostgreSQL</span
-                >
-                <span
-                  class="tag bg-[#5348d381]/50 text-white/90 px-3 py-1 rounded-full text-xs font-medium"
-                  >Slim</span
-                >
+                  CRM - Nice VolleyBall
+                </h2>
+                <p class="text-sm text-white leading-relaxed">
+                  développer un prototype fonctionnel de dashboard interne pour Nice Volley Ball, permettant d'agréger automatiquement les données de billetterie via l'API Weezevent, de les stocker dans PostgreSQL, de segmenter les contacts et de synchroniser certains segments avec Brevo, afin de résoudre la dispersion des données du club et de offrir une vision claire du parcours des supporters.
+                </p>
               </div>
-              <h2
-                class="text-lg md:text-xl font-semibold text-white mb-3 leading-tight"
+              <div
+                class="flex items-center justify-between mt-6 pt-6 border-t border-[#5348d381]/30"
               >
-                CRM - Nice VolleyBall
-              </h2>
-              <p class="text-sm text-white leading-relaxed">
-                développer un prototype fonctionnel de dashboard interne pour Nice Volley Ball, permettant d'agréger automatiquement les données de billetterie via l'API Weezevent, de les stocker dans PostgreSQL, de segmenter les contacts et de synchroniser certains segments avec Brevo, afin de résoudre la dispersion des données du club et de offrir une vision claire du parcours des supporters.
-              </p>
+                <span class="text-xs text-primary font-medium">2026</span>
+                <a href="./page projet/CRM-NiceVolleyBall.html">
+                  <div
+                    class="arrow-btn w-10 h-10 rounded-xl border border-[#5348d381]/50 bg-white/5 flex items-center justify-center hover:bg-[#122ac9]/20 transition-all"
+                  >
+                    <svg
+                      width="12"
+                      height="12"
+                      viewBox="0 0 24 24"
+                      fill="none"
+                      stroke="currentColor"
+                      stroke-width="2.5"
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                      class="text-primary"
+                    >
+                      <path d="M7 17L17 7" />
+                      <path d="M7 7h10v10" />
+                    </svg>
+                  </div>
+                </a>
+              </div>
             </div>
             <div
-              class="flex items-center justify-between mt-6 pt-6 border-t border-[#5348d381]/30"
+              class="thumb w-32 md:w-40 flex-shrink-0 flex items-center justify-center bg-[#122ac9]/10 border-l border-[#5348d381]/30"
             >
-              <span class="text-xs text-primary font-medium">2026</span>
-              <a href="./page projet/CRM-NiceVolleyBall.html">
-                <div
+              <svg
+                width="32"
+                height="32"
+                viewBox="0 0 24 24"
+                fill="none"
+                stroke="currentColor"
+                stroke-width="2"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                class="text-[#122ac9] w-12 h-12"
+              >
+                <rect x="3" y="3" width="7" height="7" />
+                <rect x="14" y="3" width="7" height="7" />
+                <rect x="14" y="14" width="7" height="7" />
+                <rect x="3" y="14" width="7" height="7" />
+              </svg>
+            </div>
+          </div>
+
+          <!-- Card 2 -->
+          <div
+            class="proj-card flex flex-row-reverse rounded-3xl border border-[#5348d381] bg-[#122ac9]/20 backdrop-blur-sm overflow-hidden cursor-pointer hover:border-[#122ac9] hover:bg-[#122ac9]/30 transition-all duration-300 shadow-xl"
+            data-proj
+          >
+            <div class="flex-1 p-6 md:p-8 flex flex-col justify-between min-w-0">
+              <div>
+                <div class="flex flex-wrap gap-2 mb-4">
+                  <span
+                    class="tag bg-[#5348d381]/50 text-white/90 px-3 py-1 rounded-full text-xs font-medium"
+                    >TailwindCSS</span
+                  >
+                  <span
+                    class="tag bg-[#5348d381]/50 text-white/90 px-3 py-1 rounded-full text-xs font-medium"
+                    >PHP</span
+                  >
+                  <span
+                    class="tag bg-[#5348d381]/50 text-white/90 px-3 py-1 rounded-full text-xs font-medium"
+                    >Docker</span
+                  >
+                  <span
+                    class="tag bg-[#5348d381]/50 text-white/90 px-3 py-1 rounded-full text-xs font-medium"
+                    >Nginx</span
+                  >
+                </div>
+                <h2
+                  class="text-lg md:text-xl font-semibold text-white mb-3 leading-tight"
+                >
+                  Iris Space - Application web scolaire (PWA)
+                </h2>
+                <p class="text-sm text-white leading-relaxed">
+                  Projet de développement réalisé en équipe dans le cadre de ma formation à l'école IRIS Nice. 
+                  L'objectif était de concevoir une application web progressive (PWA) centralisant la communication entre élèves,
+                  professeurs et administration, en remplacement d'outils dispersés.
+                </p>
+              </div>
+              <div
+                class="flex items-center justify-between mt-6 pt-6 border-t border-[#5348d381]/30"
+              >
+                <span class="text-xs text-[#5348d381] font-medium">2026</span>
+                <a href="./page projet/Iris-Space.html">
+                  <div
+                    class="arrow-btn w-10 h-10 rounded-xl border border-[#5348d381]/50 bg-white/5 flex items-center justify-center hover:bg-[#122ac9]/20 transition-all"
+                  >
+                    <svg
+                      width="12"
+                      height="12"
+                      viewBox="0 0 24 24"
+                      fill="none"
+                      stroke="currentColor"
+                      stroke-width="2.5"
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                      class="text-primary"
+                    >
+                      <path d="M7 17L17 7" />
+                      <path d="M7 7h10v10" />
+                    </svg>
+                  </div>
+                </a>
+              </div>
+            </div>
+            <div
+              class="thumb w-32 md:w-40 flex-shrink-0 flex items-center justify-center bg-[#122ac9]/10 border-r border-[#5348d381]/30"
+            >
+              <svg
+                width="32"
+                height="32"
+                viewBox="0 0 24 24"
+                fill="none"
+                stroke="currentColor"
+                stroke-width="2"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                class="text-[#122ac9] w-12 h-12"
+              >
+                <rect x="5" y="2" width="14" height="20" rx="2" />
+                <path d="M12 18h.01" />
+              </svg>
+            </div>
+          </div>
+          <!-- Card 3 -->
+          <div
+            class="proj-card flex rounded-3xl border border-[#5348d381] bg-[#122ac9]/20 backdrop-blur-sm overflow-hidden cursor-pointer hover:border-[#122ac9] hover:bg-[#122ac9]/30 transition-all duration-300 shadow-xl"
+            data-proj
+          >
+            <div class="flex-1 p-6 md:p-8 flex flex-col justify-between min-w-0">
+              <div>
+                <div class="flex flex-wrap gap-2 mb-4">
+                  <span
+                    class="tag bg-[#5348d381]/50 text-white/90 px-3 py-1 rounded-full text-xs font-medium"
+                    >HTML5</span
+                  >
+                  <span
+                    class="tag bg-[#5348d381]/50 text-white/90 px-3 py-1 rounded-full text-xs font-medium"
+                    >CSS3</span
+                  >
+                  <span
+                    class="tag bg-[#5348d381]/50 text-white/90 px-3 py-1 rounded-full text-xs font-medium"
+                    >JavaScript</span
+                  >
+                </div>
+                <h2
+                  class="text-lg md:text-xl font-semibold text-white mb-3 leading-tight"
+                >
+                  Site web - Techshop
+                </h2>
+                <p class="text-sm text-white leading-relaxed">
+                  Refonte d’un site e-commerce  en une interface moderne, responsive et accessible, avec du JavaScript pour améliorer l’expérience utilisateur, tout en respectant les normes d’accessibilité et de performance.
+                </p>
+              </div>
+              <div
+                class="flex items-center justify-between mt-6 pt-6 border-t border-[#5348d381]/30"
+              >
+                <span class="text-xs text-primary font-medium">2026</span>
+                <a href="./réalisation.html#techshop">
+                  <div
                   class="arrow-btn w-10 h-10 rounded-xl border border-[#5348d381]/50 bg-white/5 flex items-center justify-center hover:bg-[#122ac9]/20 transition-all"
                 >
                   <svg
@@ -147,190 +304,33 @@
                     <path d="M7 7h10v10" />
                   </svg>
                 </div>
-              </a>
-            </div>
-          </div>
-          <div
-            class="thumb w-32 md:w-40 flex-shrink-0 flex items-center justify-center bg-[#122ac9]/10 border-l border-[#5348d381]/30"
-          >
-            <svg
-              width="32"
-              height="32"
-              viewBox="0 0 24 24"
-              fill="none"
-              stroke="currentColor"
-              stroke-width="2"
-              stroke-linecap="round"
-              stroke-linejoin="round"
-              class="text-[#122ac9] w-12 h-12"
-            >
-              <rect x="3" y="3" width="7" height="7" />
-              <rect x="14" y="3" width="7" height="7" />
-              <rect x="14" y="14" width="7" height="7" />
-              <rect x="3" y="14" width="7" height="7" />
-            </svg>
-          </div>
-        </div>
-
-        <!-- Card 2 -->
-        <div
-          class="proj-card flex flex-row-reverse rounded-3xl border border-[#5348d381] bg-[#122ac9]/20 backdrop-blur-sm overflow-hidden cursor-pointer hover:border-[#122ac9] hover:bg-[#122ac9]/30 transition-all duration-300 shadow-xl"
-          data-proj
-        >
-          <div class="flex-1 p-6 md:p-8 flex flex-col justify-between min-w-0">
-            <div>
-              <div class="flex flex-wrap gap-2 mb-4">
-                <span
-                  class="tag bg-[#5348d381]/50 text-white/90 px-3 py-1 rounded-full text-xs font-medium"
-                  >TailwindCSS</span
-                >
-                <span
-                  class="tag bg-[#5348d381]/50 text-white/90 px-3 py-1 rounded-full text-xs font-medium"
-                  >PHP</span
-                >
-                <span
-                  class="tag bg-[#5348d381]/50 text-white/90 px-3 py-1 rounded-full text-xs font-medium"
-                  >Docker</span
-                >
-                <span
-                  class="tag bg-[#5348d381]/50 text-white/90 px-3 py-1 rounded-full text-xs font-medium"
-                  >Nginx</span
-                >
+                </a>
               </div>
-              <h2
-                class="text-lg md:text-xl font-semibold text-white mb-3 leading-tight"
-              >
-                Iris Space - Application web scolaire (PWA)
-              </h2>
-              <p class="text-sm text-white leading-relaxed">
-                Projet de développement réalisé en équipe dans le cadre de ma formation à l'école IRIS Nice. 
-                L'objectif était de concevoir une application web progressive (PWA) centralisant la communication entre élèves,
-                professeurs et administration, en remplacement d'outils dispersés.
-              </p>
             </div>
             <div
-              class="flex items-center justify-between mt-6 pt-6 border-t border-[#5348d381]/30"
+              class="thumb w-32 md:w-40 flex-shrink-0 flex items-center justify-center bg-[#122ac9]/10 border-r border-[#5348d381]/30"
             >
-              <span class="text-xs text-[#5348d381] font-medium">2026</span>
-              <a href="./page projet/Iris-Space.html">
-                <div
-                  class="arrow-btn w-10 h-10 rounded-xl border border-[#5348d381]/50 bg-white/5 flex items-center justify-center hover:bg-[#122ac9]/20 transition-all"
-                >
-                  <svg
-                    width="12"
-                    height="12"
-                    viewBox="0 0 24 24"
-                    fill="none"
-                    stroke="currentColor"
-                    stroke-width="2.5"
-                    stroke-linecap="round"
-                    stroke-linejoin="round"
-                    class="text-primary"
-                  >
-                    <path d="M7 17L17 7" />
-                    <path d="M7 7h10v10" />
-                  </svg>
-                </div>
-              </a>
-            </div>
-          </div>
-          <div
-            class="thumb w-32 md:w-40 flex-shrink-0 flex items-center justify-center bg-[#122ac9]/10 border-r border-[#5348d381]/30"
-          >
-            <svg
-              width="32"
-              height="32"
-              viewBox="0 0 24 24"
-              fill="none"
-              stroke="currentColor"
-              stroke-width="2"
-              stroke-linecap="round"
-              stroke-linejoin="round"
-              class="text-[#122ac9] w-12 h-12"
-            >
-              <rect x="5" y="2" width="14" height="20" rx="2" />
-              <path d="M12 18h.01" />
-            </svg>
-          </div>
-        </div>
-        <!-- Card 3 -->
-        <div
-          class="proj-card flex rounded-3xl border border-[#5348d381] bg-[#122ac9]/20 backdrop-blur-sm overflow-hidden cursor-pointer hover:border-[#122ac9] hover:bg-[#122ac9]/30 transition-all duration-300 shadow-xl"
-          data-proj
-        >
-          <div class="flex-1 p-6 md:p-8 flex flex-col justify-between min-w-0">
-            <div>
-              <div class="flex flex-wrap gap-2 mb-4">
-                <span
-                  class="tag bg-[#5348d381]/50 text-white/90 px-3 py-1 rounded-full text-xs font-medium"
-                  >HTML5</span
-                >
-                <span
-                  class="tag bg-[#5348d381]/50 text-white/90 px-3 py-1 rounded-full text-xs font-medium"
-                  >CSS3</span
-                >
-                <span
-                  class="tag bg-[#5348d381]/50 text-white/90 px-3 py-1 rounded-full text-xs font-medium"
-                  >JavaScript</span
-                >
-              </div>
-              <h2
-                class="text-lg md:text-xl font-semibold text-white mb-3 leading-tight"
+              <svg
+                width="32"
+                height="32"
+                viewBox="0 0 24 24"
+                fill="none"
+                stroke="currentColor"
+                stroke-width="2"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                class="text-[#122ac9] w-12 h-12"
               >
-                Site web - Techshop
-              </h2>
-              <p class="text-sm text-white leading-relaxed">
-                Refonte d’un site e-commerce  en une interface moderne, responsive et accessible, avec du JavaScript pour améliorer l’expérience utilisateur, tout en respectant les normes d’accessibilité et de performance.
-              </p>
-            </div>
-            <div
-              class="flex items-center justify-between mt-6 pt-6 border-t border-[#5348d381]/30"
-            >
-              <span class="text-xs text-primary font-medium">2026</span>
-              <a href="./réalisation.html#techshop">
-                <div
-                class="arrow-btn w-10 h-10 rounded-xl border border-[#5348d381]/50 bg-white/5 flex items-center justify-center hover:bg-[#122ac9]/20 transition-all"
-              >
-                <svg
-                  width="12"
-                  height="12"
-                  viewBox="0 0 24 24"
-                  fill="none"
-                  stroke="currentColor"
-                  stroke-width="2.5"
-                  stroke-linecap="round"
-                  stroke-linejoin="round"
-                  class="text-primary"
-                >
-                  <path d="M7 17L17 7" />
-                  <path d="M7 7h10v10" />
-                </svg>
-              </div>
-              </a>
+                <rect x="5" y="2" width="14" height="20" rx="2" />
+                <path d="M12 18h.01" />
+              </svg>
             </div>
           </div>
-          <div
-            class="thumb w-32 md:w-40 flex-shrink-0 flex items-center justify-center bg-[#122ac9]/10 border-r border-[#5348d381]/30"
-          >
-            <svg
-              width="32"
-              height="32"
-              viewBox="0 0 24 24"
-              fill="none"
-              stroke="currentColor"
-              stroke-width="2"
-              stroke-linecap="round"
-              stroke-linejoin="round"
-              class="text-[#122ac9] w-12 h-12"
-            >
-              <rect x="5" y="2" width="14" height="20" rx="2" />
-              <path d="M12 18h.01" />
-            </svg>
-          </div>
+          <!-- fin Cards -->
         </div>
-        <!-- fin Cards -->
-      </div>
-    </section>
+      </section>
+    </main>
+    
     <!---------------- Le Footer --------------------->
     <footer
       class="footer sm:footer-horizontal bg-neutral text-neutral-content p-10"
